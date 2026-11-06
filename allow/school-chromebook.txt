@@ -1,0 +1,115 @@
+# School Chromebook allowlist for Pi-hole
+# Used with a block-everything (regex .*) group: only these domains resolve.
+# Format: one exact domain per line. Lines starting with # are comments.
+# Subscribe in Pi-hole: Lists -> add this file's raw URL as an "Allow" list, assign it to the lockdown group,
+# then run Tools -> Update Gravity (or `pihole -g`) after every change.
+
+# Google Classroom / Docs / Drive support
+fonts.googleapis.com
+gstatic.com
+lh3.google.com
+lh3.googleusercontent.com
+ogads-pa.clients6.google.com
+ogs.google.com
+safebrowsing.google.com
+safebrowsing.googleapis.com
+safesearch.googleapis.com
+signaler-pa.clients6.google.com
+ssl.gstatic.com
+www.googleapis.com
+www.gstatic.com
+apis.google.com
+clients4.google.com
+clients6.google.com
+drive-thirdparty.googleusercontent.com
+drivefrontend-pa.clients6.google.com
+drivefrontend-pa.googleapis.com
+fonts.gstatic.com
+lh5.googleusercontent.com
+people-pa.clients6.google.com
+schooltools-pa.googleapis.com
+signaler-pa.googleapis.com
+storage.googleapis.com
+lh4.googleusercontent.com
+lh6.googleusercontent.com
+photosfirstparty-pa.googleapis.com
+cloudsearch.googleapis.com
+
+# ChromeOS system (updates, sign-in, connectivity, extensions, admin reporting)
+android.clients.google.com
+chromeos-ca.gstatic.com
+chromereporting-pa.googleapis.com
+clients2.google.com
+clients2.googleusercontent.com
+clients3.google.com
+clientservices.googleapis.com
+connectivitycheck.gstatic.com
+content-autofill.googleapis.com
+crosfresnel-pa.googleapis.com
+m.google.com
+memex-pa.googleapis.com
+mtalk.google.com
+optimizationguide-pa.googleapis.com
+play.googleapis.com
+securitydomain-pa.googleapis.com
+tools.google.com
+update.googleapis.com
+
+# GoGuardian (school-managed monitoring)
+beacon-fullpage-predictor.goguardian.com
+countvoncount.goguardian.com
+ext.goguardian.com
+inquisition.goguardian.com
+panther.goguardian.com
+prod-ext-gateway.goguardian.com
+prod-go-x3-predictor.goguardian.com
+prod-zephyr.goguardian.com
+ticketmaster.goguardian.com
+ws-goguardian.pusher.com
+
+# Clever, Aeries, Kelvin and school extensions
+stats.aeries.com
+assets.clever.com
+clever.com
+crx.clever.com
+pulse-event-service.beta.clever.com
+extension.kelvin.education
+pulse.kelvin.education
+gopher-buddy-prod.appspot.com
+
+# Testing: College Board Bluebook, Cambium
+pwa.cambiumtds.com
+bluebook.app.collegeboard.org
+
+# Learning sites: IXL, Discovery Education, CK-12, Kaltura, SpeechStream
+api-prod.ck12.org
+capi.ck12.org
+flexbooks.ck12.org
+static.ck12.org
+www.ck12.org
+d1m0scxbrw6oep.cloudfront.net
+dxm24f3wn5min.cloudfront.net
+use.typekit.net
+api.honeycomb.io
+api.discoveryeducation.com
+apollo.discoveryeducation.com
+app.discoveryeducation.com
+clever.discoveryeducation.com
+htcdn.discoveryeducation.com
+htevents.discoveryeducation.com
+pubsub.ixl.com
+www.ixl.com
+cdnapisec.kaltura.com
+cfvod.kaltura.com
+cache.speechstream.net
+configuration.speechstream.net
+speech.speechstream.net
+toolbar.speechstream.net
+
+# Logins and school messages
+assets.parentsquare.com
+www.parentsquare.com
+www.recaptcha.net
+
+# Unknown AWS IoT endpoint seen alongside school apps
+a13lrv2jf2efa0-ats.iot.us-west-2.amazonaws.com
