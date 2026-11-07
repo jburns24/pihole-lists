@@ -35,6 +35,15 @@ lh6.googleusercontent.com
 photosfirstparty-pa.googleapis.com
 cloudsearch.googleapis.com
 
+# Gmail
+mail.google.com
+gmail.com
+www.gmail.com
+mail-attachment.googleusercontent.com
+contacts.google.com
+addons-pa.clients6.google.com
+waa-pa.clients6.google.com
+
 # ChromeOS system (updates, sign-in, connectivity, extensions, admin reporting)
 android.clients.google.com
 chromeos-ca.gstatic.com
