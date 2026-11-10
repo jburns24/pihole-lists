@@ -114,6 +114,7 @@ cache.speechstream.net
 configuration.speechstream.net
 speech.speechstream.net
 toolbar.speechstream.net
+natmus.humboldt.edu
 
 # Logins and school messages
 assets.parentsquare.com
