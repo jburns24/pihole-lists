@@ -34,6 +34,16 @@ lh4.googleusercontent.com
 lh6.googleusercontent.com
 photosfirstparty-pa.googleapis.com
 cloudsearch.googleapis.com
+drive.usercontent.google.com
+meet.google.com
+ci3.googleusercontent.com
+taskassist-pa.clients6.google.com
+appswaldo-pa.clients6.google.com
+peoplestack-pa.clients6.google.com
+peoplestackwebexperiments-pa.clients6.google.com
+blobcomments-pa.clients6.google.com
+feedback-pa.clients6.google.com
+content.googleapis.com
 
 # Gmail
 mail.google.com
@@ -120,6 +130,15 @@ natmus.humboldt.edu
 assets.parentsquare.com
 www.parentsquare.com
 www.recaptcha.net
+posts.parentsquare.com
+pubmedia.parentsquare.com
+cdn.filestackcontent.com
+static.filestackapi.com
+js.stripe.com
+m.stripe.com
+m.stripe.network
+ws-mt1.pusher.com
+sockjs-mt1.pusher.com
 
 # Unknown AWS IoT endpoint seen alongside school apps
 a13lrv2jf2efa0-ats.iot.us-west-2.amazonaws.com
