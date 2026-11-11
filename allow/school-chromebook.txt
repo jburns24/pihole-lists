@@ -44,6 +44,8 @@ peoplestackwebexperiments-pa.clients6.google.com
 blobcomments-pa.clients6.google.com
 feedback-pa.clients6.google.com
 content.googleapis.com
+ajax.googleapis.com
+sb-ssl.google.com
 
 # Gmail
 mail.google.com
@@ -125,6 +127,9 @@ configuration.speechstream.net
 speech.speechstream.net
 toolbar.speechstream.net
 natmus.humboldt.edu
+pronunciation.speechstream.net
+app.discoveryeducation.co.uk
+web.kamihq.com
 
 # Logins and school messages
 assets.parentsquare.com
