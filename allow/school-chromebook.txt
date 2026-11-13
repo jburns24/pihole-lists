@@ -87,6 +87,8 @@ prod-go-x3-predictor.goguardian.com
 prod-zephyr.goguardian.com
 ticketmaster.goguardian.com
 ws-goguardian.pusher.com
+blocked.goguardian.com
+ai-events-intake.goguardian.com
 
 # Clever, Aeries, Kelvin and school extensions
 stats.aeries.com
